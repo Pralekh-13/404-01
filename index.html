@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404-01</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div>
+      <div class="massContainer">
+        <p>Please enter your mass</p>
+        <input id="inputWeight" type="number" />
+      </div>
+      <div class="planetContainer">
+        <p>Please select your planet to visit</p>
+        <select name="selectPlanet" id="selectPlanet"></select>
+      </div>
+    </div>
+    <div class="button">
+      <button onclick="calculate()" id="button">Calculate Weight</button>
+    </div>
+    <div class="resContainer">
+      <h1 id="h1"></h1>
+      <img id="image" src="" alt="" />
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
